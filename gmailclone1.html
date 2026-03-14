@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Clone</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="gmailclone1.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <span class="material-icons">menu</span>
+        <img src="assets/gmail/icons8-gmail-48.png" alt="" />
+        <h2>Gmail</h2>
+      </div>
+
+      <div class="header-search">
+        <span class="material-icons">search</span>
+        <input type="text" placeholder="Search mail" />
+      </div>
+
+      <div class="header-right">
+        <span><img src="assets/gmail/question.png" alt="" /></span>
+        <span><img src="assets/gmail/setting.png" alt="" /></span>
+        <span><img src="assets/gmail/icons8-gemini-ai-50.png" alt="" /></span>
+        <span class="material-icons">apps</span>
+        <span class="material-icons">notifications</span>
+        <span class="material-icons">account_circle</span>
+      </div>
+    </header>
+
+    <!-- MAIN BODY -->
+
+    <div class="main">
+      <!-- SIDEBAR -->
+
+      <div class="sidebar">
+        <button class="compose">
+          <span class="material-icons">edit</span>
+          Compose
+        </button>
+
+        <div class="sidebar-option active">
+          <span class="material-icons">inbox</span>
+          <p>Inbox</p>
+        </div>
+
+        <div class="sidebar-option">
+          <span class="material-icons">star</span>
+          <p>Starred</p>
+        </div>
+
+        <div class="sidebar-option">
+          <span class="material-icons">access_time</span>
+          <p>Snoozed</p>
+        </div>
+
+        <div class="sidebar-option">
+          <span class="material-icons">send</span>
+          <p>Sent</p>
+        </div>
+
+        <div class="sidebar-option">
+          <span class="material-icons">drafts</span>
+          <p>Drafts</p>
+        </div>
+      </div>
+
+      <!-- EMAIL LIST -->
+
+      <div class="email-list">
+        <div class="email-row">
+          <span class="material-icons">check_box_outline_blank</span>
+          <span class="material-icons">star_border</span>
+
+          <h4 class="email-title">GitHub</h4>
+
+          <p class="email-msg">
+            <b>Your deployment is live</b> - Successfully deployed your Gmail
+            clone
+          </p>
+
+          <span class="email-time">10:45 AM</span>
+        </div>
+
+        <div class="email-row">
+          <span class="material-icons">check_box_outline_blank</span>
+          <span class="material-icons">star_border</span>
+
+          <h4 class="email-title">Google Cloud</h4>
+
+          <p class="email-msg">
+            <b>Monthly Summary</b> - Check your usage for March
+          </p>
+
+          <span class="email-time">9:12 AM</span>
+        </div>
+
+        <div class="email-row">
+          <span class="material-icons">check_box_outline_blank</span>
+          <span class="material-icons">star_border</span>
+
+          <h4 class="email-title">YouTube</h4>
+
+          <p class="email-msg">
+            <b>New video uploaded</b> - Learn JavaScript in 30 minutes
+          </p>
+
+          <span class="email-time">Yesterday</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
